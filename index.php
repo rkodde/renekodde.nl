@@ -23,5 +23,12 @@
     <video id="bgvid" playsinline autoplay loop>
         <source src="he.mp4" type="video/mp4">
     </video>
+<script>
+    function play() {
+        var video = document.getElementById('bgvid');
+        video.play();
+    };
+    window.onload = play;
+</script>
 </body>
 </html>
